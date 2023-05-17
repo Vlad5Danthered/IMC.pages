@@ -369,8 +369,8 @@ body{
     top:6px;
     left:6px;
     transform: rotate(-45deg);
-    border-left: 2px solid var(--var(--white));
-    border-bottom: 2px solid var(--var(--white));
+    border-left: 2px solid var(--white);
+    border-bottom: 2px solid var(--white);
 }
 .resume-form__button{
     background: var(--primary);
@@ -459,7 +459,7 @@ body{
 .links__page-links a{
     padding: 24px;
     display: flex;
-    background: var(--var(--white));
+    background: var(--white);
     border-radius: 4px;
     gap: 24px;
     max-height: 64px;
@@ -690,7 +690,7 @@ li .header-navbar__btn-company:hover .header-navbar-btn__arrow{
     padding: 8px 0;
     right: 0;
     top:64px;
-    background: var(--var(--white));
+    background: var(--white);
     border: var(--divider) 1px solid;
     border-radius: 4px;
 }
@@ -800,14 +800,14 @@ li .header-navbar__btn-company:hover .header-navbar-btn__arrow{
     margin-top: -550px;
     top:0;
     display: flex;
-    background: var(--var(--white));
+    background: var(--white);
     max-width: 1200px;
     width: calc(100% - 80px);
     transition: margin-top 0.5s ease;
 }
 .header-window-service{
     display: flex;
-    background: var(--var(--white));
+    background: var(--white);
     max-height: 464px;
 }
 .header-window-service ul{
@@ -877,14 +877,14 @@ li .header-navbar__btn-company:hover .header-navbar-btn__arrow{
     margin-top: -550px;
     top:0;
     display: flex;
-    background: var(--var(--white));
+    background: var(--white);
     max-width: 1200px;
     width: calc(100% - 80px);
     transition: margin-top 0.5s ease;
 }
 .header-window-company{
     display: flex;
-    background: var(--var(--white));
+    background: var(--white);
     max-height: 351px;
 }
 .header-window-company ul{
@@ -1051,11 +1051,11 @@ footer::after{
 }
 .footer-menu__page a{
     text-decoration: none;
-    color: var(--var(--white));
+    color: var(--white);
 }
 .footer-menu__page li:hover a{
     text-decoration: underline;
-    color: var(--var(--white));
+    color: var(--white);
 }
 @media (max-width: 900px){
     .footer-menu__navbar{
@@ -1102,7 +1102,7 @@ footer::after{
 }
 .footer-menu_tel__telephones-list a:hover{
     text-decoration: underline;
-    color: var(--var(--white));
+    color: var(--white);
 }
 @media (max-width: 768px){
     .footer-menu__tel{
@@ -1134,7 +1134,7 @@ footer::after{
     fill: var(--primary);
 }
 .footer-menu__communication svg{
-    fill: var(--var(--white));
+    fill: var(--white);
 }
 @media (max-width: 768px){
     .footer-menu__communication{
@@ -1160,7 +1160,7 @@ footer::after{
     display: flex;
 }
 .footer-copyright__page a{
-    color: var(--var(--white));
+    color: var(--white);
     display: flex;
     align-items: center;
 }
